@@ -18,3 +18,25 @@
 	background: #ffffff 0% 0% no-repeat padding-box;
 	box-shadow: 0px 3px 3px #00000029;
 }
+.TechCarousel-bg {
+	background: #f8f6f9 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.carousel-inner:after{
+	display: block;
+    clear: both;
+    content: "";
+}
+.carousel-image-card{
+	border-radius: 0.3125rem;
+	border-top: transparent;
+	opacity: 1;
+	box-shadow: 0px 3px 3px #00000029;
+}
+.carousel-indicators li {
+	width: 0.625rem;
+	height: 0.625rem;
+	border-radius: 100%;
+	margin: 0.625rem;
+	background-color: #410065;
+}
