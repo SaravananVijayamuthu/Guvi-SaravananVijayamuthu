@@ -11,7 +11,7 @@
 	content: "\f107";
 	font-family: FontAwesome;
 }
-.card {
+.Details-card {
 	border-radius: 0.3125rem;
 	border-top: transparent;
 	opacity: 1;
@@ -22,12 +22,12 @@
 	background: #f8f6f9 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
-.carousel-inner:after{
+.carousel-inner:after {
 	display: block;
-    clear: both;
-    content: "";
+	clear: both;
+	content: "";
 }
-.carousel-image-card{
+.carousel-image-card {
 	border-radius: 0.3125rem;
 	border-top: transparent;
 	opacity: 1;
@@ -42,11 +42,42 @@
 }
 /*  */
 
-.HowItWorks-card{
+.HowItWorks-card {
 	border-style: solid;
 	border-top-width: 0.625rem;
-    border-top-color: #410065;
+	border-top-color: #410065;
 }
-.HowItWorks-card-h6{
+.HowItWorks-card-h6 {
 	color: #410065;
+}
+
+/* SHAMEER CSS */
+.zenimg {
+	margin-top: 3.75em;
+	margin-left: 1.875em;
+}
+
+.about {
+	color: #410065;
+}
+.About-BG , .Projects-bg{
+	background-color: #F8F6F9;
+}
+.KeyHighlights-Header-bg{
+	color:#410065;
+}
+.KeyHighlights-Content li{
+	opacity: 0.87;
+}
+.imgg{
+    width:84px;
+    height: 84px;
+    /* margin-left: 7em;*/
+    margin-top: 1em; 
+}
+
+.imgg1{
+    width:84px;
+    height: 78px;
+    margin-top: 1em; 
 }
