@@ -40,3 +40,13 @@
 	margin: 0.625rem;
 	background-color: #410065;
 }
+/*  */
+
+.HowItWorks-card{
+	border-style: solid;
+	border-top-width: 0.625rem;
+    border-top-color: #410065;
+}
+.HowItWorks-card-h6{
+	color: #410065;
+}
