@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Public/css/style.css">
     <script src="./Public/js/bootstrap.min.js"></script>
 </head>
 
@@ -17,27 +19,101 @@
             <div class="col-sm-11 mx-auto col-md-10 py-5">
                 <div class="d-flex justify-content-between mb-4">
                     <div>
-                        <h2>The Program Details</h2>
+                        <h2 class="Details-header">The Program Details</h2>
                     </div>
                 </div>
                 <div class="row m-0">
                     <div class="col-md-12 col-sm-12">
+                        <!-- Accordion-1 Front-End -->
                         <div class="col card">
                             <div class="card-header bg-white">
-                                <h5>
-                                    Front-End Development
-                                </h5>
-                                <div class="col">
-                                    <p>
-                                        Get a deeper understanding of Client Side Programming or in other words the front end development by developing highly responsive web pages across languages.
-                                    </p>
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion1">
+                                    <h3 class="col accordion-header">
+                                        Front-End Development
+                                    </h3>
+                                    <!-- <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                    </button> -->
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion1" aria-expanded="false"
+                                            aria-controls="accordion1"></button>
+                                    </div>
                                 </div>
+                                <p>
+                                    Get a deeper understanding of Client Side Programming or in other words the front
+                                    end development by developing highly responsive web pages across languages.
+                                </p>
                             </div>
+                            <!-- div with acc1 id with data for Accordion-1 Front-end -->
+                        </div>
+                        <!-- Accordion-2 Back-End -->
+                        <div class="col card mt-3">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion2">
+                                    <h3 class="col accordion-header">
+                                        Back-End Development
+                                    </h3>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion2" aria-expanded="false"
+                                            aria-controls="accordion2"></button>
+                                    </div>
+                                </div>
+                                <p>
+                                    Learn the industry leading ways to design back end development with least response
+                                    time which in turn fast helps loading web applications & how to connect with
+                                    Databases.
+                                </p>
+                            </div>
+                            <!-- div with acc2 id with data for Accordion-2 Back-end -->
+                        </div>
+                        <!-- Accordion-3 DataStructures & Scalability -->
+                        <div class="col card mt-3">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion3">
+                                    <h3 class="col accordion-header">
+                                        DataStructures & Scalability
+                                    </h3>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion3" aria-expanded="false"
+                                            aria-controls="accordion3"></button>
+                                    </div>
+                                </div>
+                                <p>
+                                    Learn Data Structures and Algorithms write Efficient, Robust, Optimized code. Learn
+                                    how to build robust & scalable web servers with a thorough understanding of AWS.
+                                </p>
+                            </div>
+                            <!-- div with acc3 id with data for Accordion-3 DataStructures & Scalability -->
+                        </div>
+                        <!-- Accordion-4 Build your Portfolio -->
+                        <div class="col card mt-3">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion4">
+                                    <h3 class="col accordion-header">
+                                        Build your Portfolio
+                                    </h3>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion4" aria-expanded="false"
+                                            aria-controls="accordion4"></button>
+                                    </div>
+                                </div>
+                                <p>
+                                    Build your Full stack developer Portfolio and demonstrate your knowledge by
+                                    developing End to End Full Stack Application
+                                </p>
+                            </div>
+                            <!-- div with acc4 id with data for Accordion-4 Build your Portfolio -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 

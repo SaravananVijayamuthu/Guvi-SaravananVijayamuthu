@@ -1,0 +1,20 @@
+.accordion-arrow {
+	color: #000;
+	font-weight: 900;
+}
+.accordion-header,
+.Details-header {
+	color: #410065;
+	opacity: 1;
+}
+.accordion-arrow:after {
+	content: "\f107";
+	font-family: FontAwesome;
+}
+.card {
+	border-radius: 0.3125rem;
+	border-top: transparent;
+	opacity: 1;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 3px #00000029;
+}
