@@ -40,6 +40,13 @@
 	margin: 0.625rem;
 	background-color: #410065;
 }
+.HowItWorks-accordion{
+	color:#410065;
+	text-decoration: none;
+}
+.HowItWorks-accordion a{
+	text-decoration: none;
+}
 /*  */
 
 .HowItWorks-card {
