@@ -24,6 +24,10 @@
 	opacity: 1;
 }
 .rounded-circle {
+	border-radius: 0.3125rem;
+	border-top: transparent;
+	opacity: 1;
+	box-shadow: 0px 3px 3px #00000029;
 	min-width: 6.25rem;
 }
 .carousel-inner:after {
@@ -57,7 +61,6 @@
 .HowItWorks-accordion a {
 	text-decoration: none;
 }
-
 /*  */
 
 .HowItWorks-card {
@@ -68,13 +71,12 @@
 .HowItWorks-card-h6 {
 	color: #410065;
 }
-
 /* SHAMEER CSS */
+
 .zenimg {
 	margin-top: 3.75em;
 	margin-left: 1.875em;
 }
-
 .about {
 	color: #410065;
 }
@@ -94,20 +96,21 @@
 	/* margin-left: 7em;*/
 	margin-top: 1em;
 }
-
 .imgg1 {
 	width: 84px;
 	height: 78px;
 	margin-top: 1em;
 }
-
 @media screen and (max-width: 768px) {
-	.ProgramOverviewChild{
+	.ProgramOverviewChild {
 		justify-items: center;
 		display: none;
 	}
-	#MainBannerImage{
+	#MainBannerImage {
 		margin-block-start: -8rem;
+	}
+	.zenimg {
+		display: none;
 	}
 	.grid {
 		display: grid;
@@ -115,12 +118,8 @@
 		grid-gap: 1rem;
 	}
 }
-@media screen and (min-width: 992px)
-{
+@media screen and (min-width: 992px) {
 	.grid {
 		display: none;
 	}
 }
-
-/*  */
-/*  */
