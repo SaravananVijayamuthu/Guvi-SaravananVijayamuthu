@@ -18,9 +18,13 @@
 	background: #ffffff 0% 0% no-repeat padding-box;
 	box-shadow: 0px 3px 3px #00000029;
 }
-.TechCarousel-bg, .Learners-bg{
+.TechCarousel-bg,
+.Learners-bg {
 	background: #f8f6f9 0% 0% no-repeat padding-box;
 	opacity: 1;
+}
+.rounded-circle {
+	min-width: 6.25rem;
 }
 .carousel-inner:after {
 	display: block;
@@ -33,6 +37,12 @@
 	opacity: 1;
 	box-shadow: 0px 3px 3px #00000029;
 }
+.TestimonialCards{
+	border-radius: 0.3125rem;
+	border-top: transparent;
+	opacity: 1;
+	box-shadow: 0px 3px 3px #00000029;
+}
 .carousel-indicators li {
 	width: 0.625rem;
 	height: 0.625rem;
@@ -40,13 +50,14 @@
 	margin: 0.625rem;
 	background-color: #410065;
 }
-.HowItWorks-accordion{
-	color:#410065;
+.HowItWorks-accordion {
+	color: #410065;
 	text-decoration: none;
 }
-.HowItWorks-accordion a{
+.HowItWorks-accordion a {
 	text-decoration: none;
 }
+
 /*  */
 
 .HowItWorks-card {
@@ -67,24 +78,28 @@
 .about {
 	color: #410065;
 }
-.About-BG , .Projects-bg{
-	background-color: #F8F6F9;
+.About-BG,
+.Projects-bg {
+	background-color: #f8f6f9;
 }
-.KeyHighlights-Header-bg{
-	color:#410065;
+.KeyHighlights-Header-bg {
+	color: #410065;
 }
-.KeyHighlights-Content li{
+.KeyHighlights-Content li {
 	opacity: 0.87;
 }
-.imgg{
-    width:84px;
-    height: 84px;
-    /* margin-left: 7em;*/
-    margin-top: 1em; 
+.imgg {
+	width: 84px;
+	height: 84px;
+	/* margin-left: 7em;*/
+	margin-top: 1em;
 }
 
-.imgg1{
-    width:84px;
-    height: 78px;
-    margin-top: 1em; 
+.imgg1 {
+	width: 84px;
+	height: 78px;
+	margin-top: 1em;
 }
+
+/*  */
+/*  */
