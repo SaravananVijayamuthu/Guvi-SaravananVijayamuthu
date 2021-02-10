@@ -125,17 +125,3 @@
 	}
 }
 
-/* Webinar CSS*/
-.Register-Btn{
-	background-color:#410065;
-	color:#ffffff;
-	border-radius: 5px;
-}
-
-.Webinar-accordion-bg{
-	border-radius: 0.3125rem;
-	border-top: transparent;
-	opacity: 1;
-	background: #ffffff 0% 0% no-repeat padding-box;
-	box-shadow: 0px 3px 3px #00000029;
-}

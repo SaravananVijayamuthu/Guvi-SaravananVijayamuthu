@@ -2,59 +2,92 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Zen Webinar Page</title>
-    <meta http-equiv="Cache-control" content="no-cache">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./Public/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Zen Webinar Page</title>
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./Public/css/webinar.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="row m-0 my-5">
-        <div class="container">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">Webinars</h2>
-                </div>
-            </div>
-            <div class="Webinar-accordion-bg p-2">
-                <div class="row">
-                    <div class="col">
-                        <div class="d-flex justify-content-start data-toggle=" collapse " data-target=" #accordion1 "">
-                            <div class="p-2">
-                                <h3>Webinar on Full Stack Development</h3>
-                                <p>by Robert Ludlum, CEO, Golddig.in</p>
-                            </div>
-                        </div>
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-light navbar-expand bg-light navigation-clean">
+                <div class="container"><a class="navbar-brand" href="#"><img src="./Public/images/zenclass.jpg" alt=""  width="30" height="30" /></a>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <a class="btn btn-primary ml-auto" role="button" href="#">Sign Up</a>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <div class="mx-5">
-                            <h6>15/02/2021</h6>
-                            <h6>03:00 PM</h6>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-end">
-                        <div class="mx-3">
-                            <button type="button" class="btn btn-sm Register-Btn">Register Now</button>
-                            <button class="btn collapsed accordion-arrow" data-toggle="collapse"
-                                data-target="#accordion1" aria-expanded="false" aria-controls="accordion1"></button>
-                        </div>
-                    </div>
-
                 </div>
-                <div id="accordion1" class="collapse" data-parent="#accordion1">
-                    <div class="card-body text-center p-text mt-0">.......</div>
-                </div>
-            </div>
+            </nav>
         </div>
     </div>
+	<div class="row m-0 my-5">
+		<div class="col-sm-8 mx-auto col-md-8">
+			<div class="d-flex justify-content-between">
+				<div>
+					<h2 class="Details-header">Webinars</h2>
+				</div>
+			</div>
+			<hr>
+			<div class="Webinar-accordion-bg p-2">
+				<div class="row">
+					<div class="col">
+						<div class="d-flex justify-content-start data-toggle=" collapse " data-target=" #accordion1 "">
+							<div class="p-2">
+								<h3>Webinar on Full Stack Development</h3>
+								<p>by Robert Ludlum, CEO, Golddig.in</p>
+							</div>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-5">
+							<h6>15/02/2021</h6>
+							<h6>03:00 PM</h6>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-3">
+							<button type="button" class="btn btn-sm Register-Btn">Register Now</button>
+							<button class="btn collapsed accordion-arrow" data-toggle="collapse" data-target="#accordion1" aria-expanded="false" aria-controls="accordion1"></button>
+						</div>
+					</div>
+				</div>
+				<div id="accordion1" class="collapse" data-parent="#accordion1">
+					<!-- <div class="card-body text-center p-text mt-0">.......</div> -->
+					<div class="row m-0 mt-2">
+						<div class="col-md-6 webinar-accordion-description-line ">
+							<h5 class="text-purple">Description</h5>
+							<p>Full Stack Development is a rapidly growing domain for developers who wish to upskill by expanding their Portfolio into front-end development, backend development & Database management. With companies focusing more on productivity in the post-Covid era, the shift from individual testers, front end & backend developers, database administrators to a one responsible individual with all the skill sets needed - Full Stack Developer.</p>
+						</div>
+						<div class="col-md-2 Webinar-Mob-image">
+							<img src="./Public/images/Suhadev.webp" class="rounded-circle" alt="" />
+							<h6>Robert Ludlum</h6>
+							<p>CEO, Golddig.in</p>
+						</div>
+						<div class="col-md-4">
+							<p>Robert Ludlum finished his graduation from Stanford and started his own company called Golddig.in which helps students to work on a part-time gig in their free time.</p>
+							<p>He is passionate about coding and won the best coder award in 2019.</p>
+						</div>
+					</div>
+					<div class="col">
+						<h6>Key Takeaways from Webinar</h6>
+						<ol type="1">
+							<li>What is Full Stack Development?</li>
+							<li>Opportunities in Full Stack Development.</li>
+							<li>Scope of work</li>
+							<li>Nuances of Full Stack Development</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
