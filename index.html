@@ -7,7 +7,7 @@
     <title>Zen Landing Page</title>
     <meta http-equiv="Cache-control" content="no-cache">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./Public/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Public/css/style.css">
@@ -16,495 +16,577 @@
 </head>
 
 <body>
-    <!-- About ZEN -->
-    <div class="row About-BG  py-5 mx-0">
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col-md-5">
-                    <div class="text zenimg">
-                        <div>
-                            <img src="./Public/images/zenclass.jpg" alt="ZEN">
-                        </div>
+    <!-- Intro -->
+    <div class="banner">
+    <div class="modal fade"  role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered mx-auto" role="document">
+            <div class="modal-content">
+                <div class="modal-body banner-bg">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="text-center w-100">
+                        <h4 class="display-2 text-purple">Full-Stack Developer Bootcamp</h4>
+                        <h4 class="text-warning font-weight-bold">100% job assurance program</h4>
+                        <p class="lead text-purple">Refund if not hired</p>
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <h2 class="about mb-4">About ZEN Class</h2>
-                    <p>Zen Class is one of the industry’s leading Project Based Full
-                        Stack Development Program that promises 100% Job Placement Support
-                        on completing the course. Conducted by an IIT Madras incubated
-                        company & designed by our Founders(Ex-Paypal Employees) also offers
-                        mentoring through experts from companies like Google, Microsoft,
-                        Flipkart, Zoho & Freshworks for placing you in top companies with
-                        high salaries. This Full stack Developer Program is designed to
-                        cover every technology in depth to help you become a successful
-                        full stack Developer.</p>
+                <div class="text center p-text bg-white p-4 w-100">
+                    <p class="lead text-center py-1">Curious to know more? Request a call back.</p>
+                    <p class="lead text-center py-1">We are more than willing to help you!</p>
+                    <div class="py-2 text-center">
+                        <a id="zenModalBtn" class="btn btn-lg bg-warning text-dark px-5">Talk to our Advisor</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About ZEN END -->
-    <div class="row mx-0">
-        <div class="col-sm-11 mx-auto col-md-10 py-5">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">The Program Details</h2>
+    <main role="main" class="no-tawk zen-class-page">
+        <!-- Body container -->
+        <div class="row m-0 banner-bg text-purple">
+            <div class="col-sm-12 col-lg-6 banner-content pl-md-5">
+                <div class="col-sm-12 col-md-11 mx-auto">
+                    <div class="pl-md-5"><img class="bannerIITMLogo pb-3 mt-5 mb-4" src="./Public/images/iit.svg"
+                            alt="IITM Chennai"></div>
+                    <div class="pl-md-5">
+                        <h2 class="display-4 font-weight-bold text-purple banner-title">Full Stack Developer<br>Bootcamp
+                        </h2>
+                        <div class="col-10 p-0">
+                            <ul>
+                                <li class="p-text text-purple">100% Job Assurance or Refund</li>
+                                <li class="p-text text-purple">Mentors from top Global Product companies</li>
+                                <li class="p-text text-purple">A portfolio of real-world projects</li>
+                                <li class="p-text text-purple">Certification</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row m-0">
-                <div class="col-md-12 col-sm-12">
-                    <!-- Accordion-1 Front-End -->
-                    <div class="col card Details-card">
-                        <div class="card-header bg-white">
-                            <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion1">
-                                <h3 class="col accordion-header">
-                                    Front-End Development
-                                </h3>
-                                <!-- <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            <div
+                class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-0 d-flex align-items-center justify-content-center bannerBgImage">
+                <div class="banner-label d-inline-flex align-items-center">
+                </div>
+                <img class="img-fluid bannerImage float-right" src="./Public/images/main.svg" alt="Zen Banner">
+            </div>
+            <div class="col-sm-11 col-md-10 mx-auto my-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="d-flex justify-content-between mb-3">
+                            <div>
+                                <h3 class="display-5 font-weight-bold">Program Overview</h3>
+                            </div>
+                            <div class="d-flex justify-content-between mr-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div><img src="./Public/images/clock.svg" class="mx-auto " alt=""></div>
+                        <p class=" my-1 text-purple">Duration</p>
+                        <p class=" my-1  banner-highlights text-dark">3 Months (Weekdays)/<br> 5 Months (Weekends)</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div><img src="./Public/images/person.svg" class="mx-auto" alt="">
+                            <p class=" my-1 text-purple">Format</p>
+                        </div>
+                        <p class=" my-1  banner-highlights text-dark">Offline/Online</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="mx-auto justify-content-center"><img src="./Public/images/work.svg" alt=""></div>
+                        <p class=" my-1 text-purple">Hiring Partners</p>
+                        <p class=" my-1  banner-highlights text-dark">100+ companies</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div><img src="./Public/images/rupee.svg" class="mx-auto" alt=""></div>
+                        <p class=" my-1 text-purple">Max CTC upto</p>
+                        <p class=" my-1  banner-highlights text-dark">21Lakhs/annum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Intro END-->
+
+        
+        <!-- About ZEN -->
+        <div class="row About-BG  py-5 mx-0">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-md-5">
+                        <div class="text zenimg">
+                            <div>
+                                <img src="./Public/images/zenclass.jpg" alt="ZEN">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="about mb-4">About ZEN Class</h2>
+                        <p>Zen Class is one of the industry’s leading Project Based Full
+                            Stack Development Program that promises 100% Job Placement Support
+                            on completing the course. Conducted by an IIT Madras incubated
+                            company & designed by our Founders(Ex-Paypal Employees) also offers
+                            mentoring through experts from companies like Google, Microsoft,
+                            Flipkart, Zoho & Freshworks for placing you in top companies with
+                            high salaries. This Full stack Developer Program is designed to
+                            cover every technology in depth to help you become a successful
+                            full stack Developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About ZEN END -->
+        <div class="row mx-0">
+            <div class="col-sm-11 mx-auto col-md-10 py-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <div>
+                        <h2 class="Details-header">The Program Details</h2>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- Accordion-1 Front-End -->
+                        <div class="col card Details-card">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion1">
+                                    <h3 class="col accordion-header">
+                                        Front-End Development
+                                    </h3>
+                                    <!-- <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Accordion Item #1
                                     </button> -->
-                                <div class="justify-content-end col d-flex">
-                                    <button class="btn collapsed accordion-arrow" data-toggle="collapse"
-                                        data-target="#accordion1" aria-expanded="false"
-                                        aria-controls="accordion1"></button>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion1" aria-expanded="false"
+                                            aria-controls="accordion1"></button>
+                                    </div>
                                 </div>
-                            </div>
-                            <p>
-                                Get a deeper understanding of Client Side Programming or in other words the front
-                                end development by developing highly responsive web pages across languages.
-                            </p>
-                        </div>
-                        <!-- div with acc1 id with data for Accordion-1 Front-end -->
-                    </div>
-                    <!-- Accordion-2 Back-End -->
-                    <div class="col card Details-card mt-3">
-                        <div class="card-header bg-white">
-                            <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion2">
-                                <h3 class="col accordion-header">
-                                    Back-End Development
-                                </h3>
-                                <div class="justify-content-end col d-flex">
-                                    <button class="btn collapsed accordion-arrow" data-toggle="collapse"
-                                        data-target="#accordion2" aria-expanded="false"
-                                        aria-controls="accordion2"></button>
-                                </div>
-                            </div>
-                            <p>
-                                Learn the industry leading ways to design back end development with least response
-                                time which in turn fast helps loading web applications & how to connect with
-                                Databases.
-                            </p>
-                        </div>
-                        <!-- div with acc2 id with data for Accordion-2 Back-end -->
-                    </div>
-                    <!-- Accordion-3 DataStructures & Scalability -->
-                    <div class="col card Details-card mt-3">
-                        <div class="card-header bg-white">
-                            <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion3">
-                                <h3 class="col accordion-header">
-                                    DataStructures & Scalability
-                                </h3>
-                                <div class="justify-content-end col d-flex">
-                                    <button class="btn collapsed accordion-arrow" data-toggle="collapse"
-                                        data-target="#accordion3" aria-expanded="false"
-                                        aria-controls="accordion3"></button>
-                                </div>
-                            </div>
-                            <p>
-                                Learn Data Structures and Algorithms write Efficient, Robust, Optimized code. Learn
-                                how to build robust & scalable web servers with a thorough understanding of AWS.
-                            </p>
-                        </div>
-                        <!-- div with acc3 id with data for Accordion-3 DataStructures & Scalability -->
-                    </div>
-                    <!-- Accordion-4 Build your Portfolio -->
-                    <div class="col card Details-card mt-3">
-                        <div class="card-header bg-white">
-                            <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion4">
-                                <h3 class="col accordion-header">
-                                    Build your Portfolio
-                                </h3>
-                                <div class="justify-content-end col d-flex">
-                                    <button class="btn collapsed accordion-arrow" data-toggle="collapse"
-                                        data-target="#accordion4" aria-expanded="false"
-                                        aria-controls="accordion4"></button>
-                                </div>
-                            </div>
-                            <p>
-                                Build your Full stack developer Portfolio and demonstrate your knowledge by
-                                developing End to End Full Stack Application
-                            </p>
-                        </div>
-                        <!-- div with acc4 id with data for Accordion-4 Build your Portfolio -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Program Details END-->
-
-    <!-- Technologies Covered carousel-->
-    <div class="row TechCarousel-bg m-0">
-        <div class="col-sm-11 mx-auto col-md-10 py-5">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">Technologies covered</h2>
-                </div>
-            </div>
-            <div id="TechnologiesCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
-                <div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#TechnologiesCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#TechnologiesCarousel" data-slide-to="1"></li>
-                        <li data-target="#TechnologiesCarousel" data-slide-to="2"></li>
-                    </ol>
-                </div>
-                <div class="carousel-inner d-flex pb-5" role="listbox">
-                    <!-- Carousel 1 -->
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-between align-items-stretch col-sm-11  mx-auto m-0">
-                            <div
-                                class="d-flex carousel-image-card  justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="Node" src="./Public/images/nodejs.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="Mongo" src="./Public/images/mongodb.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="AWS" src="./Public/images/aws.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="NPM" src="./Public/images/npm.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="NPM" src="./Public/images/jest-0.svg">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Carousel item 2 -->
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-between align-items-stretch col-sm-11 mx-auto m-0">
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="Mongo" src="./Public/images/mongodb.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="Node" src="./Public/images/nodejs.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="AWS" src="./Public/images/aws.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="NPM" src="./Public/images/npm.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="NPM" src="./Public/images/jest-0.svg">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Carousel item 3 -->
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-between align-items-stretch col-sm-11 mx-auto m-0">
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="AWS" src="./Public/images/aws.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="Node" src="./Public/images/nodejs.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="Mongo" src="./Public/images/mongodb.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="NPM" src="./Public/images/npm.svg">
-                            </div>
-                            <div
-                                class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
-                                <img alt="NPM" src="./Public/images/jest-0.svg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Technologies END-->
-
-    <!-- Key HighLights -->
-    <div class="row m-0">
-        <div class="col-sm-11 col-md-10 mx-auto py-5">
-            <div class="my-3">
-                <h2 class="KeyHighlights-Header-bg">Key Highlights</h2>
-            </div>
-            <div class="row m-0">
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-left">
-                    <ul class="list-unstyled">
-                        <li class="my-4"> <img class="mx-auto" src="./Public/images/studentsDesigned.svg" alt="icon">
-                            Designed for
-                            Students/ Working Professionals
-                        </li>
-                        <li class="my-4"> <img class="mx-auto" src="./Public/images/projects.svg" alt="icon"> 20+
-                            Projects
-                        </li>
-                        <li class="my-4"> <img class="mx-auto" src="./Public/images/agile.svg" alt="icon">
-                            Practical Hands-on
-                            Workshops
-                        </li>
-                        <li class="my-4"> <img class="mx-auto" src="./Public/images/one-on-one.svg" alt="icon">
-                            One-on-One
-                            with Industry
-                            Mentors</li>
-                        <li class="my-4"> <img class="mx-auto" src="./Public/images/personalized.svg" alt="icon">
-                            Personalized Feedback
-                            on Assignments.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Key HighLights END -->
-
-    <!-- Projects -->
-    <div class="row m-0 Projects-bg">
-        <div class="col-sm-12 col-md-10 mx-auto py-5">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">Projects</h2>
-                </div>
-            </div>
-            <div class="row m-0">
-                <div class="card-deck">
-                    <div class="card ">
-                        <div class="mx-auto mt-5">
-                            <img src="./Public/images/insta.svg" alt="Card image">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Instagram in React</h4>
-                            <div class="mt-4">
-                                <p>Clone of your Insta account with react components. create Business Profile, Celebrity
-                                    Profile, General Profile, Add & Follow Friends & Celebrities, Browse posts of
-                                    different categories, Upload Post, Upload Stories, Go live, Keep up with social
-                                    trends.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="mx-auto mt-5">
-                            <img src="./Public/images/youtube.svg" alt="Card image">
-                        </div>
-                        <div class="card-body ">
-                            <h4 class="card-title text-center">Youtube radio</h4>
-                            <div class="mt-4">
                                 <p>
-                                <div class="mt-4">
-                                    <p>Everyone wants a personalized presentation. Customized player for your
-                                        preferences and you can store the data in a MongoDB via a backend like NodeJS.
-                                    </p>
-                                </div>
+                                    Get a deeper understanding of Client Side Programming or in other words the front
+                                    end development by developing highly responsive web pages across languages.
                                 </p>
                             </div>
+                            <!-- div with acc1 id with data for Accordion-1 Front-end -->
+                        </div>
+                        <!-- Accordion-2 Back-End -->
+                        <div class="col card Details-card mt-3">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion2">
+                                    <h3 class="col accordion-header">
+                                        Back-End Development
+                                    </h3>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion2" aria-expanded="false"
+                                            aria-controls="accordion2"></button>
+                                    </div>
+                                </div>
+                                <p>
+                                    Learn the industry leading ways to design back end development with least response
+                                    time which in turn fast helps loading web applications & how to connect with
+                                    Databases.
+                                </p>
+                            </div>
+                            <!-- div with acc2 id with data for Accordion-2 Back-end -->
+                        </div>
+                        <!-- Accordion-3 DataStructures & Scalability -->
+                        <div class="col card Details-card mt-3">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion3">
+                                    <h3 class="col accordion-header">
+                                        DataStructures & Scalability
+                                    </h3>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion3" aria-expanded="false"
+                                            aria-controls="accordion3"></button>
+                                    </div>
+                                </div>
+                                <p>
+                                    Learn Data Structures and Algorithms write Efficient, Robust, Optimized code. Learn
+                                    how to build robust & scalable web servers with a thorough understanding of AWS.
+                                </p>
+                            </div>
+                            <!-- div with acc3 id with data for Accordion-3 DataStructures & Scalability -->
+                        </div>
+                        <!-- Accordion-4 Build your Portfolio -->
+                        <div class="col card Details-card mt-3">
+                            <div class="card-header bg-white">
+                                <div class="row mb-1 mt-2" data-toggle="collapse" data-target="#accordion4">
+                                    <h3 class="col accordion-header">
+                                        Build your Portfolio
+                                    </h3>
+                                    <div class="justify-content-end col d-flex">
+                                        <button class="btn collapsed accordion-arrow" data-toggle="collapse"
+                                            data-target="#accordion4" aria-expanded="false"
+                                            aria-controls="accordion4"></button>
+                                    </div>
+                                </div>
+                                <p>
+                                    Build your Full stack developer Portfolio and demonstrate your knowledge by
+                                    developing End to End Full Stack Application
+                                </p>
+                            </div>
+                            <!-- div with acc4 id with data for Accordion-4 Build your Portfolio -->
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="mx-auto mt-5">
-                            <img src="./Public/images/docs.svg" alt="Card image">
+                </div>
+            </div>
+        </div>
+        <!-- Program Details END-->
+
+        <!-- Technologies Covered carousel-->
+        <div class="row TechCarousel-bg m-0">
+            <div class="col-sm-11 mx-auto col-md-10 py-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <div>
+                        <h2 class="Details-header">Technologies covered</h2>
+                    </div>
+                </div>
+                <div id="TechnologiesCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+                    <div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#TechnologiesCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#TechnologiesCarousel" data-slide-to="1"></li>
+                            <li data-target="#TechnologiesCarousel" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                    <div class="carousel-inner d-flex pb-5" role="listbox">
+                        <!-- Carousel 1 -->
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-between align-items-stretch col-sm-11  mx-auto m-0">
+                                <div
+                                    class="d-flex carousel-image-card  justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="Node" src="./Public/images/nodejs.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="Mongo" src="./Public/images/mongodb.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="AWS" src="./Public/images/aws.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="NPM" src="./Public/images/npm.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="NPM" src="./Public/images/jest-0.svg">
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Google Docs Clone</h4>
-                            <div class="mt-4">
-                                <p>Build Realtime Document editor for users for editing, creating and sharing with all
-                                    the features like Google Docs using Socket.io.</p>
+                        <!-- Carousel item 2 -->
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-between align-items-stretch col-sm-11 mx-auto m-0">
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="Mongo" src="./Public/images/mongodb.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="Node" src="./Public/images/nodejs.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="AWS" src="./Public/images/aws.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="NPM" src="./Public/images/npm.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="NPM" src="./Public/images/jest-0.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel item 3 -->
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-between align-items-stretch col-sm-11 mx-auto m-0">
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="AWS" src="./Public/images/aws.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="Node" src="./Public/images/nodejs.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="Mongo" src="./Public/images/mongodb.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="NPM" src="./Public/images/npm.svg">
+                                </div>
+                                <div
+                                    class="d-flex carousel-image-card justify-content-center align-items-center bg-white p-4 mx-5 my-5 mt-2">
+                                    <img alt="NPM" src="./Public/images/jest-0.svg">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Projects END -->
+        <!-- Technologies END-->
 
-    <!-- How it works -->
-    <div class="row mx-0">
-        <div class="col-sm-11 col-md-10 mx-auto py-5">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">How It Works ?</h2>
+        <!-- Key HighLights -->
+        <div class="row m-0">
+            <div class="col-sm-11 col-md-10 mx-auto py-5">
+                <div class="my-3">
+                    <h2 class="KeyHighlights-Header-bg">Key Highlights</h2>
+                </div>
+                <div class="row m-0">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-left">
+                        <ul class="list-unstyled">
+                            <li class="my-4"> <img class="mx-auto" src="./Public/images/studentsDesigned.svg"
+                                    alt="icon">
+                                Designed for
+                                Students/ Working Professionals
+                            </li>
+                            <li class="my-4"> <img class="mx-auto" src="./Public/images/projects.svg" alt="icon"> 20+
+                                Projects
+                            </li>
+                            <li class="my-4"> <img class="mx-auto" src="./Public/images/agile.svg" alt="icon">
+                                Practical Hands-on
+                                Workshops
+                            </li>
+                            <li class="my-4"> <img class="mx-auto" src="./Public/images/one-on-one.svg" alt="icon">
+                                One-on-One
+                                with Industry
+                                Mentors</li>
+                            <li class="my-4"> <img class="mx-auto" src="./Public/images/personalized.svg" alt="icon">
+                                Personalized Feedback
+                                on Assignments.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="row m-0">
+        </div>
+        <!-- Key HighLights END -->
+
+        <!-- Projects -->
+        <div class="row m-0 Projects-bg">
+            <div class="col-sm-12 col-md-10 mx-auto py-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <div>
+                        <h2 class="Details-header">Projects</h2>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="card-deck">
+                        <div class="card ">
+                            <div class="mx-auto mt-5">
+                                <img src="./Public/images/insta.svg" alt="Card image">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Instagram in React</h4>
+                                <div class="mt-4">
+                                    <p>Clone of your Insta account with react components. create Business Profile,
+                                        Celebrity
+                                        Profile, General Profile, Add & Follow Friends & Celebrities, Browse posts of
+                                        different categories, Upload Post, Upload Stories, Go live, Keep up with social
+                                        trends.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="mx-auto mt-5">
+                                <img src="./Public/images/youtube.svg" alt="Card image">
+                            </div>
+                            <div class="card-body ">
+                                <h4 class="card-title text-center">Youtube radio</h4>
+                                <div class="mt-4">
+                                    <p>
+                                    <div class="mt-4">
+                                        <p>Everyone wants a personalized presentation. Customized player for your
+                                            preferences and you can store the data in a MongoDB via a backend like
+                                            NodeJS.
+                                        </p>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="mx-auto mt-5">
+                                <img src="./Public/images/docs.svg" alt="Card image">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Google Docs Clone</h4>
+                                <div class="mt-4">
+                                    <p>Build Realtime Document editor for users for editing, creating and sharing with
+                                        all
+                                        the features like Google Docs using Socket.io.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects END -->
+
+        <!-- How it works -->
+        <div class="row mx-0">
+            <div class="col-sm-11 col-md-10 mx-auto py-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <div>
+                        <h2 class="Details-header">How It Works ?</h2>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="card-deck">
+                        <div class="card HowItWorks-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Pre-BootCamp Phase</h4>
+                                <h6 class="HowItWorks-card-h6">3 sessions | 15 days</h6>
+                                <div class="mt-4">
+                                    <p>Every student comes with unique learning styles and knowledge needed to get
+                                        started.
+                                        Gear up and get a warm on all concepts needed to make the most of our bootcamp.
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-center p-3">
+                                    <a class="HowItWorks-accordion pointer">
+                                        <span class="HowItWorks-accordion">View More</span>
+                                        <i class="fa fa-angle-down mx-2" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card HowItWorks-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Zen BootCamp Phase</h4>
+                                <h6 class="HowItWorks-card-h6">60 Sessions | 3 months (Weekdays) |5 Months (Weekends)
+                                </h6>
+                                <div class="mt-4">
+                                    <p>Every student comes with unique learning styles and knowledge needed to get
+                                        started. Gear up and get a warm on all concepts needed to make the most of our
+                                        bootcamp.</p>
+                                </div>
+                                <div class="d-flex justify-content-center p-3">
+                                    <a class="HowItWorks-accordion pointer">
+                                        <span class="HowItWorks-accordion">View More</span>
+                                        <i class="fa fa-angle-down mx-2" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card HowItWorks-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Placement phase</h4>
+                                <h6 class="HowItWorks-card-h6">3 sessions | 15 days</h6>
+                                <div class="mt-4">
+                                    <p>With more than 100+ hiring partners across all domains of full stack development
+                                        stop
+                                        worrying about jobs completely. Focus on building skills and in turn the CTCs
+                                        that
+                                        you are going to get hired at.</p>
+                                </div>
+                                <div class="d-flex justify-content-center p-3">
+                                    <a class="HowItWorks-accordion pointer">
+                                        <span class="HowItWorks-accordion">View More</span>
+                                        <i class="fa fa-angle-down mx-2" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- How it works END -->
+        <!-- Learners -->
+        <div class="row mx-0 Learners-bg">
+            <div class="col-sm-11 col-md-10 mx-auto py-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <div>
+                        <h2 class="Details-header">Our learners working in</h2>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-12 mx-auto d-flex  justify-content-center">
+                    <img src="./Public/images/Image 3.svg" class="img-fluid" alt="Learners">
+                </div>
+                <div class="col-sm-11 col-md-10 mx-auto d-flex  justify-content-center">
+                    <h5 class="text-purple">+100 companies</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Learners END -->
+
+        <!-- Testimonial -->
+        <div class="row mx-0">
+            <div class="col-sm-11 col-md-10 mx-auto py-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <div>
+                        <h2 class="Details-header">What our learners says?</h2>
+                    </div>
+                </div>
                 <div class="card-deck">
-                    <div class="card HowItWorks-card">
-                        <div class="card-body">
-                            <h4 class="card-title">Pre-BootCamp Phase</h4>
-                            <h6 class="HowItWorks-card-h6">3 sessions | 15 days</h6>
-                            <div class="mt-4">
-                                <p>Every student comes with unique learning styles and knowledge needed to get started.
-                                    Gear up and get a warm on all concepts needed to make the most of our bootcamp.</p>
-                            </div>
-                            <div class="d-flex justify-content-center p-3">
-                                <a class="HowItWorks-accordion pointer">
-                                    <span class="HowItWorks-accordion">View More</span>
-                                    <i class="fa fa-angle-down mx-2" aria-hidden="true"></i>
-                                </a>
+                    <div class="card TestimonialCards">
+                        <div class="my-auto  pb-2 text-center">
+                            <img src="./Public/images/studentsDesigned.svg" class="rounded-circle" alt="" srcset="">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <div class="col-md-11 col-sm-10 mx-auto">
+                                <p>It was a great learning at guvi's modern gurukulam where I got to learn about full
+                                    stack development in a practical way.
+                                </p>
+                                <p> Even a good seed needs a right ambiance to grow & I think guvi did that part to the
+                                    best.</p>
+                                <div class="text-center w-100">
+                                    <p class="learn-c card-text font-weight-bold">Suhadev</p>
+                                    <p class="learn-c card-text text-secondary">Full-stack developer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card HowItWorks-card">
-                        <div class="card-body">
-                            <h4 class="card-title">Zen BootCamp Phase</h4>
-                            <h6 class="HowItWorks-card-h6">60 Sessions | 3 months (Weekdays) |5 Months (Weekends)</h6>
-                            <div class="mt-4">
-                                <p>Every student comes with unique learning styles and knowledge needed to get
-                                    started. Gear up and get a warm on all concepts needed to make the most of our
-                                    bootcamp.</p>
-                            </div>
-                            <div class="d-flex justify-content-center p-3">
-                                <a class="HowItWorks-accordion pointer">
-                                    <span class="HowItWorks-accordion">View More</span>
-                                    <i class="fa fa-angle-down mx-2" aria-hidden="true"></i>
-                                </a>
+                    <div class="card TestimonialCards">
+                        <div class="my-auto  pb-2 text-center">
+                            <img src="./Public/images/studentsDesigned.svg" class="rounded-circle" alt="" srcset="">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <div class="col-md-11 col-sm-10 mx-auto">
+                                <p>I would recommend Zen class for anyone who is looking to
+                                    break into a tech career. You get to learn from top software engineers out
+                                    there and the best part is they are easily accessible and open to feedback.
+                                </p>
+                                <div class="text-center w-100">
+                                    <p class="learn-c card-text font-weight-bold">Swamim Saikia</p>
+                                    <p class="learn-c card-text text-secondary">Full-stack developer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card HowItWorks-card">
-                        <div class="card-body">
-                            <h4 class="card-title">Placement phase</h4>
-                            <h6 class="HowItWorks-card-h6">3 sessions | 15 days</h6>
-                            <div class="mt-4">
-                                <p>With more than 100+ hiring partners across all domains of full stack development stop
-                                    worrying about jobs completely. Focus on building skills and in turn the CTCs that
-                                    you are going to get hired at.</p>
-                            </div>
-                            <div class="d-flex justify-content-center p-3">
-                                <a class="HowItWorks-accordion pointer">
-                                    <span class="HowItWorks-accordion">View More</span>
-                                    <i class="fa fa-angle-down mx-2" aria-hidden="true"></i>
-                                </a>
+                    <div class="card TestimonialCards">
+                        <div class="my-auto  pb-2 text-center">
+                            <img src="./Public/images/studentsDesigned.svg" class="rounded-circle" alt="" srcset="">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <div class="col-md-11 col-sm-10 mx-auto">
+                                <p>I would recommend Zen class for anyone who is looking to
+                                    break into a tech career. You get to learn from top software engineers out
+                                    there and the best part is they are easily accessible and open to feedback.
+                                </p>
+                                <div class="text-center w-100">
+                                    <p class="learn-c card-text font-weight-bold">Akshay</p>
+                                    <p class="learn-c card-text text-secondary">Full-stack developer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- How it works END -->
-    <!-- Learners -->
-    <div class="row mx-0 Learners-bg">
-        <div class="col-sm-11 col-md-10 mx-auto py-5">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">Our learners working in</h2>
-                </div>
-            </div>
-            <div class="col-sm-11 col-md-12 mx-auto d-flex  justify-content-center">
-                <img src="./Public/images/Image 3.svg" class="img-fluid" alt="Learners">
-            </div>
-            <div class="col-sm-11 col-md-10 mx-auto d-flex  justify-content-center">
-                <h5 class="text-purple">+100 companies</h5>
-            </div>
-        </div>
-    </div>
-    <!-- Learners END -->
-
-    <!--  -->
-    <div class="row mx-0">
-        <div class="col-sm-11 col-md-10 mx-auto py-5">
-            <div class="d-flex justify-content-between mb-4">
-                <div>
-                    <h2 class="Details-header">What our learners says?</h2>
-                </div>
-            </div>
-            <div class="card-deck">
-                <div class="card TestimonialCards">
-                    <div class="my-auto  pb-2 text-center">
-                        <img src="./Public/images/studentsDesigned.svg" class="rounded-circle"  alt="" srcset="">
-                    </div>
-                    <div class="card-body d-flex flex-column justify-content-center">
-                        <div class="col-md-11 col-sm-10 mx-auto">
-                            <p>It was a great learning at guvi's modern gurukulam where I got to learn about full stack development in a practical way.
-                            </p>
-                            <p> Even a good seed needs a right ambiance to grow & I think guvi did that part to the best.</p>
-                            <div class="text-center w-100">
-                                <p class="learn-c card-text font-weight-bold">Suhadev</p>
-                                <p class="learn-c card-text text-secondary">Full-stack developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card TestimonialCards">
-                    <div class="my-auto  pb-2 text-center">
-                        <img src="./Public/images/studentsDesigned.svg" class="rounded-circle" alt="" srcset="">
-                    </div>
-                    <div class="card-body d-flex flex-column justify-content-center">
-                        <div class="col-md-11 col-sm-10 mx-auto">
-                            <p>I would recommend Zen class for anyone who is looking to
-                                break into a tech career. You get to learn from top software engineers out
-                                there and the best part is they are easily accessible and open to feedback.
-                            </p>
-                            <div class="text-center w-100">
-                                <p class="learn-c card-text font-weight-bold">Swamim Saikia</p>
-                                <p class="learn-c card-text text-secondary">Full-stack developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card TestimonialCards">
-                    <div class="my-auto  pb-2 text-center">
-                        <img src="./Public/images/studentsDesigned.svg" class="rounded-circle" alt="" srcset="">
-                    </div>
-                    <div class="card-body d-flex flex-column justify-content-center">
-                        <div class="col-md-11 col-sm-10 mx-auto">
-                            <p>I would recommend Zen class for anyone who is looking to
-                                break into a tech career. You get to learn from top software engineers out
-                                there and the best part is they are easily accessible and open to feedback.
-                            </p>
-                            <div class="text-center w-100">
-                                <p class="learn-c card-text font-weight-bold">Akshay</p>
-                                <p class="learn-c card-text text-secondary">Full-stack developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="team-boxed">
-                    <div class="row people m-0">
-                        <div class="col-md-6 col-lg-4 item">
-                            <div class="box mx-auto py-5"><img class="rounded-circle" src="./Public/images/studentsDesigned.svg">
-                                <p class="description">It was a great learning at guvi's modern gurukulam where I got to learn about full stack development in a practical way. Even a good seed needs a right ambiance to grow & I think guvi did that part to the best.</p>
-                                <h3 class="name text-center">Parthasarathi</h3>
-                                <p class="title text-center">Full-stack developer</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 item">
-                            <div class="box  mx-auto py-5"><img class="rounded-circle"class=""  src="./Public/images/studentsDesigned.svg">
-                                <p class="description">Guvi has trained me from my 3rd year in engineering. The training was interview focused and taught by highly experienced mentors. They also helped me through regular tests for practice and regularly informed me about upcoming interviews. Thanks to that I got a placed as Software Engineer.</p>
-                                <h3 class="name text-center">Swamim Saikia</h3>
-                                <p class="title text-center">Full-stack developer</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 item">
-                            <div class="box  mx-auto py-5"><img class="rounded-circle"class=""  src="./Public/images/studentsDesigned.svg">
-                                <p class="description">I joined guvi for a full stack developer program during the course of which I learnt a lot of technologies in detail. I also got the opportunity to be placed in good product based companies. It had an enriching experience on the whole. </p>
-                                <h3 class="name text-center">Akshay</h3>
-                                <p class="title text-center">Full-stack developer</p>
-                            </div>
-                        </div>
-                    </div>
-            </div> -->
-        </div>
-    </div>
-
+        <!-- Testimonial END -->
 </body>
 
 </html>
