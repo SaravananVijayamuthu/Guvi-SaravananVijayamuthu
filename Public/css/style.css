@@ -103,7 +103,7 @@
 
 @media (max-width: 576px){
 	.bannerImage{
-		width: 84px;
+		display: none;
 	}
 }
 /*  */
