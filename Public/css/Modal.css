@@ -1,0 +1,14 @@
+.ModalPaytmP{
+    font-size: small;
+    padding: 1rem;
+}
+.AmountText{
+    color: gray; 
+}
+.progress{
+    height: 0.6rem;
+}
+
+.GoToCourses-PModal{
+    min-width: 15rem;
+}

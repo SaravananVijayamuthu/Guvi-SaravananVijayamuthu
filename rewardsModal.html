@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rewards Modal</title>
+    <meta http-equiv="Cache-control" content="no-cache" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Public/css/Modal.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Complete the course 100% -->
+    <div class="row mx-5 py-5">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            modal
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row m-0">
+                            <div class="col mx-auto">
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-2">
+                                        <h5 class="font-weight-bold">Transfer your cash to</h5>
+                                    </div>
+                                    <div class="Paytm mb-2">
+                                        <img src="./Public/images/icons8-paytm.svg" alt="paytm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-0 my-2">
+                            <div class="col-11 mx-auto">
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 91%"
+                                        aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-0 my-3">
+                            <div class="col">
+                                <div class="container m-0 bg-light rounded">
+                                    <p class="ModalPaytmP">You're almost there! It seems you have not completed the !
+                                        course. Complete the course 100% and try again.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col mx-0">
+                                <div class="d-flex justify-content-between">
+                                    <div class="p-2">
+                                        <h6 class="AmountText">Amount</h6>
+                                    </div>
+                                    <div class="p-2">
+                                        <h4 class="font-weight-bold">₹0</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col mx-auto">
+                                <div class="d-flex justify-content-center">
+                                        <button type="button" class="btn btn-block btn-success GoToCourses-PModal">Go to
+                                            courses</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Complete the course 100% END -->
+    <div class="row mx-5 py-5">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+            modal
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pb-4">
+                    <div class="container-fluid">
+                        <div class="mx-lg-4">
+                            <div class="row">
+                                <div class="col">
+                                            <h4 class="font-weight-bold text-nowrap overflow-hidden">Transfer your cash to <img src="./Public/images/icons8-paytm.svg" alt="paytm" /></h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                        <div class="form-group w-auto">
+                                            <h6 class="font-weight-light">Paytm ID</h6>
+                                            <input class="form-control" 
+                                                placeholder="Enter your Paytm ID">
+                                                <small class="form-text text-nowrap overflow-hidden text-success">Amount will be transferred to the entered ID</small>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-flex justify-content-between">
+                                            <h6 class="AmountText">Amount</h6>
+                                            <h4 class="font-weight-bold">₹100</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-flex justify-content-center">
+                                            <button type="button" class="btn shadow-sm btn-block btn-success GoToCourses-PModal">Transfer Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
