@@ -1,34 +1,105 @@
 /* Webinar CSS*/
-.Register-Btn{
-	background-color:#410065;
-	color:#ffffff;
+
+.Register-Btn {
+	background-color: #410065;
+	color: #ffffff;
 	border-radius: 5px;
 }
-
-.Webinar-accordion-bg{
+.accordion-arrow {
+	color: #000;
+	font-weight: 900;
+}
+.accordion-header,
+.Details-header {
+	color: #410065;
+	opacity: 1;
+}
+.accordion-arrow:after {
+	content: "\f107";
+	font-family: FontAwesome;
+}
+.Webinar-accordion-bg {
 	border-radius: 0.3125rem;
 	border-top: transparent;
 	opacity: 1;
 	background: #ffffff 0% 0% no-repeat padding-box;
-	box-shadow: 0px 3px 3px #00000029;
 }
-.webinar-accordion-description-line{
+.webinar-accordion-description-line {
 	border-right: 3px solid #ececec;
 }
-
 @media screen and (max-width: 768px) {
-	.webinar-accordion-description-line{
+	.webinar-accordion-description-line {
 		border-right: none;
 	}
-	.Webinar-Mob-image{
+	.Webinar-Mob-image {
 		text-align: center;
 		border-top: 3px solid #ececec;
 	}
-	.Webinar-Mob-image img{
+	.Webinar-Mob-image img {
 		margin-top: 1rem;
 	}
 }
 .logo {
 	width: 67px;
 	height: 56px;
+}
+/* Navbar */
+
+@media (min-width: 768px) {
+	.navigation-clean-button {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-expand-md {
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+}
+.navigation-clean-button {
+	background: #fff;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	border-radius: 0;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 0;
+}
+.navbar {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: .5rem 1rem;
+}
+.ULClassWeb,
+.UlClass {
+	margin-right: 2rem;
+}
+.LoginBtn {
+	margin-right: 2rem;
+	min-width: 7rem;
+	border-radius: 0.4rem;
+	border-color: #410065;
+}
+.SignupBtn {
+	margin-right: 2rem;
+	min-width: 7rem;
+	border-radius: 0.4rem;
+	border-color: #410065;
+	background-color: #410065;
+}
+.hr {
+	margin-top: -0.2rem;
+	margin-bottom: 1.5rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .1);
 }

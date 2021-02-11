@@ -8,26 +8,37 @@
 	<meta http-equiv="Cache-control" content="no-cache">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./Public/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./Public/css/webinar.css">
-	<link rel="stylesheet" href="./Public/css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="./Public/js/jquery.min.js"></script>
+	<script src="./Public/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="row">
-        <div class="col">
-            <nav class="navbar navbar-light navbar-expand bg-light navigation-clean">
-                <div class="container"><a class="navbar-brand" href="#"><img src="./Public/images/zenclass.jpg" alt=""  width="30" height="30" /></a>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <a class="btn btn-primary ml-auto" role="button" href="#">Sign Up</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-light shadow-sm navbar-expand-md navigation-clean-button">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="./Public/images/zenclass.jpg" alt="ZenLogo" width="50" height="50" />
+			</a>
+			<button data-toggle="collapse" class="navbar-toggler" data-target="#ZenToggler">	<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="ZenToggler">
+				<ul class="nav navbar-nav ml-auto ULClassWeb">
+					<li class="nav-item UlClass">	<a class="nav-link text-dark" href="#">Classroom</a>
+					</li>
+					<li class="nav-item">	<a class="nav-link active text-purple font-weight-bold" href="#">Webinars</a>
+					</li>
+				</ul>	<span class="navbar-text actions">
+					<a role="button" class="btn btn-sm btn-outline text-purple LoginBtn" href="#">Log In</a>
+					<a class="btn btn-sm SignupBtn action-button text-white" role="button" href="#">Sign Up</a>
+				</span>
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar END -->
+	<!-- Accordion  -->
 	<div class="row m-0 my-5">
 		<div class="col-sm-8 mx-auto col-md-8">
 			<div class="d-flex justify-content-between">
@@ -35,11 +46,12 @@
 					<h2 class="Details-header">Webinars</h2>
 				</div>
 			</div>
-			<hr>
-			<div class="Webinar-accordion-bg p-2">
+			<hr class="hr">
+			<div class="Webinar-accordion-bg shadow-sm p-2">
+				<!-- Accordion 1 -->
 				<div class="row">
 					<div class="col">
-						<div class="d-flex justify-content-start data-toggle=" collapse " data-target=" #accordion1 "">
+						<div class="d-flex justify-content-start" data-toggle="collapse" data-target="#accordion1">
 							<div class="p-2">
 								<h3>Webinar on Full Stack Development</h3>
 								<p>by Robert Ludlum, CEO, Golddig.in</p>
@@ -54,13 +66,13 @@
 					</div>
 					<div class="justify-content-end">
 						<div class="mx-3">
-							<button type="button" class="btn btn-sm Register-Btn">Register Now</button>
+							<button type="button" class="btn btn-sm Register-Btn text-white">Register Now</button>
 							<button class="btn collapsed accordion-arrow" data-toggle="collapse" data-target="#accordion1" aria-expanded="false" aria-controls="accordion1"></button>
 						</div>
 					</div>
 				</div>
+				<!-- Accordion 1 Data -->
 				<div id="accordion1" class="collapse" data-parent="#accordion1">
-					<!-- <div class="card-body text-center p-text mt-0">.......</div> -->
 					<div class="row m-0 mt-2">
 						<div class="col-md-6 webinar-accordion-description-line ">
 							<h5 class="text-purple">Description</h5>
@@ -87,8 +99,92 @@
 					</div>
 				</div>
 			</div>
+			<!-- Accordion 1 Data END -->
+			<!-- Accordion 1 END -->
+			<!-- Accordion 2 -->
+			<div class="Webinar-accordion-bg shadow-sm p-2 mt-3">
+				<div class="row ">
+					<div class="col">
+						<div class="d-flex justify-content-start" data-toggle="collapse" data-target="#accordion2">
+							<div class="p-2">
+								<h3>Webinar on Full Stack Development</h3>
+								<p>by Robert Ludlum, CEO, Golddig.in</p>
+							</div>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-5">
+							<h6>15/02/2021</h6>
+							<h6>03:00 PM</h6>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-3">
+							<button type="button" class="btn btn-sm Register-Btn text-white">Register Now</button>
+							<button class="btn collapsed accordion-arrow" data-toggle="collapse" data-target="#accordion2" aria-expanded="false" aria-controls="accordion2"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Accordion 2 Data -->
+			<!-- Accordion 2 END -->
+			<!-- Accordion 3 -->
+			<div class="Webinar-accordion-bg shadow-sm p-2 mt-3">
+				<div class="row mt-3">
+					<div class="col">
+						<div class="d-flex justify-content-start" data-toggle="collapse" data-target="#accordion3">
+							<div class="p-2">
+								<h3>Webinar on Full Stack Development</h3>
+								<p>by Robert Ludlum, CEO, Golddig.in</p>
+							</div>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-5">
+							<h6>15/02/2021</h6>
+							<h6>03:00 PM</h6>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-3">
+							<button type="button" class="btn btn-sm Register-Btn text-white">Register Now</button>
+							<button class="btn collapsed accordion-arrow" data-toggle="collapse" data-target="#accordion3" aria-expanded="false" aria-controls="accordion3"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Accordion 3 Data-->
+			<!-- Accordion 3 END-->
+			<!-- Accordion 4 -->
+			<div class="Webinar-accordion-bg shadow-sm p-2 mt-3">
+				<div class="row mt-3">
+					<div class="col">
+						<div class="d-flex justify-content-start" data-toggle="collapse" data-target="#accordion4">
+							<div class="p-2">
+								<h3>Webinar on Full Stack Development</h3>
+								<p>by Robert Ludlum, CEO, Golddig.in</p>
+							</div>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-5">
+							<h6>15/02/2021</h6>
+							<h6>03:00 PM</h6>
+						</div>
+					</div>
+					<div class="justify-content-end">
+						<div class="mx-3">
+							<button type="button" class="btn btn-sm Register-Btn text-white">Register Now</button>
+							<button class="btn collapsed accordion-arrow" data-toggle="collapse" data-target="#accordion4" aria-expanded="false" aria-controls="accordion4"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Accordion 4 DATA-->
+			<!-- Accordion 4 END -->
 		</div>
 	</div>
+	<!-- Accordion END -->
 </body>
 
 </html>
