@@ -8,7 +8,9 @@
 .progress{
     height: 0.6rem;
 }
-
-.GoToCourses-PModal{
-    min-width: 15rem;
+.close{
+    opacity: 8;
+}
+button.close:focus{
+    outline: 1px none;
 }
