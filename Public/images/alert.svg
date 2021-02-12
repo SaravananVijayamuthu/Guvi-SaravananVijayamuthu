@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.624" height="32" viewBox="0 0 23.624 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #181917;
+      }
+
+      .cls-2 {
+        fill: #ef233c;
+        stroke: #f6f6f9;
+        font-size: 24px;
+        font-family: Muli-Black, Muli;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="Group_2500" data-name="Group 2500" transform="translate(-664.376 -274)">
+    <path id="path" class="cls-1" d="M742.827,39.055V50.446h11.392v1.627H742.827a1.669,1.669,0,0,1-1.628-1.627V39.055ZM755.846,35.8a1.669,1.669,0,0,1,1.627,1.627v9.764a1.669,1.669,0,0,1-1.627,1.627h-9.764a1.668,1.668,0,0,1-1.627-1.627V37.427a1.668,1.668,0,0,1,1.627-1.627Zm-6.51,10.171,4.882-3.662-4.882-3.662Z" transform="translate(-76.824 246.387)"/>
+    <text id="_" data-name="!" class="cls-2" transform="translate(687 299)"><tspan x="-6.624" y="0">!</tspan></text>
+  </g>
+</svg>
