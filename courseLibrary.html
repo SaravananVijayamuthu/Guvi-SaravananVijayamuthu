@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CourseList</title>
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Public/css/courselibrary.css">
+    <link rel="stylesheet" href="./Public/css/webinar.css">
+    <script src="./Public/js/jquery.min.js"></script>
+    <script src="./Public/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <header class="row bg-white">
+            <nav class="col navbar navbar-light shadow navbar-expand-md navigation-clean-button">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Public/images/zenclass.jpg" alt="ZenLogo" width="50" height="50" />
+                    </a>
+                    <button data-toggle="collapse" class="navbar-toggler" data-target="#ZenToggler"> <span
+                            class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="ZenToggler">
+                        <ul class="nav navbar-nav ml-auto ULClassWeb">
+                            <li class="nav-item UlClass"> <a class="nav-link text-dark" href="#">Classroom</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link active text-purple font-weight-bold"
+                                    href="#">Webinars</a>
+                            </li>
+                        </ul>
+                        <!-- <span class="navbar-text actions ju">
+                            <a role="button" class="btn btn-sm btn-outline text-purple LoginBtn" href="#">Log In</a>
+                            <a class="btn btn-sm SignupBtn action-button text-white" role="button" href="#">Sign Up</a>
+                        </span> -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Title and Search -->
+        <div class="row py-4 m-0">
+            <div class="col mx-auto">
+                <div class="col-sm-12 offset-md-1 col-md-11">
+                    <div class="row justify-content-start">
+                        <div class="p-2">
+                            <span class="text-black-50">
+                                Course Library
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-sm-12 col-md-6  p-2">
+                            <h2 class="font-weight-bold my-lg-2">Course Library</h2>
+                        </div>
+                        <div class="col-sm-12 col-md-5 col-xl-6 order-md-1">
+                            <div class="row d-flex justify-content-end mx-auto">
+                                <div class="col-sm-12 col-md-6 order-md-1 my-1">
+                                    <span class="text-muted">Search</span>
+                                    <div class="d-flex justify-content-end shadow-sm">
+                                        <div class="col mx-auto">
+                                            <input type="text" class="form-control border-0 "
+                                                placeholder="Search for courses">
+                                        </div>
+                                        <button class="btn search "></button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 pr-lg-2 mr-md-3 my-1">
+                                    <span class="text-muted">Languages</span>
+                                    <div data-target="#AllDropDown" class="d-flex justify-content-end shadow-sm">
+                                        <div class="col p-2 pl-3">
+                                            <span data-placeholder="All">
+                                                All
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <button class="btn collapsed accordion-arrow font-weight-bold"
+                                                data-toggle="collapse" data-target="#AllDropdown" aria-expanded="false"
+                                                aria-controls="AllDropDown"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cards -->
+                    <div class="row my-3">
+                        <div class="col-sm-12 col-md-3 p-2">
+                            <h2 class="font-weight-bold">Continue watching</h2>
+                        </div>
+                        <div class="col-sm-12 col-md-3 py-lg-3">
+                            <a href="#" class="text-decoration-none">
+                                <p class="text-success">See all courses</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="row m-0">
+                        <div class="col-md-12 col-lg-6 col-xl-4">
+                            <div class="card course-card">
+                                <div class="card-header d-flex flex-row">
+                                    <div class="course-banner data_visualization d-flex justify-content-between">
+                                        Image
+                                        <img src='https://dummyimage.com/450x100/fff.png?text=dummy' alt='' />
+                                        <div class="card-img-overlay text-lg-right">
+                                            <span
+                                                class="course-tag-premium  badge badge-pill badge-primary">Premium</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body font-weight-bold">
+                                    <div class="d-flex justify-content-between">
+                                        <i class="fa fa-book"></i>
+                                    </div>
+                                    <div class="course-rating d-flex flex-row"></div>
+                                    <h4> Python Programming for game development</h4>
+                                    <div>
+                                        <p class="text-muted font-weight-normal">By Guvi</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <ul class="list-unstyled card-li">
+                                            <li>12345 Enrolled</li>
+                                            <li>English</li>
+                                            <li class="border-right-0">120 Hrs</li>
+                                        </ul>
+                                        <ul class="list-unstyled">
+                                            <li class="card-dot"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Don Norman -->
+
+
+    </main>
+</body>
+
+</html>

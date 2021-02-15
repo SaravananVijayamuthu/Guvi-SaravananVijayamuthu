@@ -1,0 +1,25 @@
+.accordion-arrow:after {
+	content: "\f107";
+	font-family: FontAwesome;
+}
+.search:after{
+    content: "\f002";
+	font-family: FontAwesome;
+}
+
+/* Shameer */
+.course-tag-premium {
+    background-image: linear-gradient(to left, #DE2575, #FF5030);
+	/* border-radius: 0%; */
+}
+.card-li > li{
+	display: inline-block;
+	border-right: 0.5px solid black;
+	padding-right: 0.5rem;
+	opacity: 65%;
+}
+.card-dot:after{
+	opacity: 65%;
+	content: "\f141";
+	font-family: FontAwesome;
+}
