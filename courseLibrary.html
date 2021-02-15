@@ -11,21 +11,22 @@
 	<link rel="stylesheet" type="text/css" href="./Public/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./Public/css/courselibrary.css">
-	<script src="./Public/js/jquery.min.js"></script>
+	<script src="./Public/js/jquery.slim.min.js"></script>
+	<script src="./Public/js/popper.min.js"></script>
 	<script src="./Public/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 	<main class="container-fluid">
-        <!-- NAVBAR -->
-        <!-- Title and Search -->
+		<!-- NAVBAR -->
+		<!-- Title and Search -->
 		<div class="row py-4 m-0">
 			<div class="col mx-auto">
 				<div class="col-sm-12 offset-md-1 col-md-11">
 					<div class="row justify-content-start">
 						<div class="p-2"> <span class="text-black-50">
-                                Course Library
-                            </span>
+								Course Library
+							</span>
 						</div>
 					</div>
 					<!-- Course Library Heading with dropdown and search -->
@@ -38,19 +39,23 @@
 								<div class="col-sm-12 col-md-6 order-md-1 my-1"> <span class="text-muted">Search</span>
 									<div class="d-flex justify-content-end shadow-sm">
 										<div class="col mx-auto">
-											<input type="text" class="form-control border-0 " placeholder="Search for courses">
+											<input type="text" class="form-control border-0 "
+												placeholder="Search for courses">
 										</div>
 										<button class="btn search "></button>
 									</div>
 								</div>
-								<div class="col-sm-12 col-md-3 pr-lg-2 mr-md-3 my-1"> <span class="text-muted">Languages</span>
+								<div class="col-sm-12 col-md-3 pr-lg-2 mr-md-3 my-1"> <span
+										class="text-muted">Languages</span>
 									<div data-target="#AllDropDown" class="d-flex justify-content-end shadow-sm">
 										<div class="col p-2 pl-3"> <span data-placeholder="All">
-                                                All
-                                            </span>
+												All
+											</span>
 										</div>
 										<div>
-											<button class="btn collapsed accordion-arrow font-weight-bold" data-toggle="collapse" data-target="#AllDropdown" aria-expanded="false" aria-controls="AllDropDown"></button>
+											<button class="btn collapsed accordion-arrow font-weight-bold"
+												data-toggle="collapse" data-target="#AllDropdown" aria-expanded="false"
+												aria-controls="AllDropDown"></button>
 										</div>
 									</div>
 								</div>
@@ -72,9 +77,11 @@
 					<div class="row">
 						<div class="col-sm-12 col-md-4 p-2">
 							<div class="card course-card shadow-sm">
-								<img class="card-img-top" src="./Public/images/sample-card-banner.png" alt="Python Game Development" />
+								<img class="card-img-top" src="./Public/images/sample-card-banner.png"
+									alt="Python Game Development" />
 								<div class="card-body font-weight-bold">
-									<div class="d-flex justify-content-between py-2"> <span class="course-tag-premium  badge badge-pill badge-primary">Premium</span>
+									<div class="d-flex justify-content-between py-2"> <span
+											class="course-tag-premium  badge badge-pill badge-primary">Premium</span>
 									</div>
 									<div class="d-flex">
 										<h4 class="font-weight-bold">Python programming for game development</h4>
@@ -90,11 +97,18 @@
 										</ul>
 									</div>
 									<div class="d-flex justify-content-between">
-										<div class="text-muted font-weight-normal list-unstyled pt-2"> <span class="d-inline"><del>$ 1200</del></span>
+										<div class="text-muted font-weight-normal list-unstyled pt-2"> <span
+												class="d-inline"><del>$ 1200</del></span>
 											<span class="d-inline text-primary font-weight-bolder">$ 1200</span>
 										</div>
-										<div>
-											<button class="card-dot btn"></button>
+										<div class="dropdown">
+											<button class="card-dot btn" id="dropdownMenuButton" data-toggle="dropdown"
+												aria-expanded="false" ></button>
+											<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<li><a class="dropdown-item" href="#">A</a></li>
+												<li><a class="dropdown-item" href="#">B</a></li>
+												<li><a class="dropdown-item" href="#">C</a></li>
+											</ul>
 										</div>
 									</div>
 								</div>
@@ -107,5 +121,4 @@
 		</div>
 	</main>
 </body>
-
 </html>
